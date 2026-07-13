@@ -1,0 +1,29 @@
+{
+  "slug": "example-fitness-model",
+  "status": "published",
+  "published_date": "2026-07-13",
+  "question": "Should a high-volume, low-price gym operator open in tier-2 Indian cities, or hold in metros?",
+  "question_type": "strategic",
+  "company_name": "Illustrative fitness operator",
+  "industry": "Fitness",
+  "business_model": "Membership",
+  "geography": "India",
+  "lessons": ["Unit economics before scale", "Pricing power is a moat"],
+  "lessons_narrative": "Cheap rent does not rescue a weak contribution margin. Test the unit before you test the map.",
+  "tags": ["expansion", "unit economics"],
+  "outcome": "Positive club-level contribution margin within 18 months of opening.",
+  "outcome_user": ["cheaper"],
+  "outcome_business": ["revenue", "risk"],
+  "background": "The operator runs 40 clubs in six metros on a low-price, high-volume membership model. Metro rents have risen 30% in three years while price competition has capped membership fees.",
+  "complication": "Growth capital has been raised against a 100-club target. Metro economics no longer clear the hurdle rate, so the board is pushing tier-2 expansion on the assumption that cheaper rent fixes the model.",
+  "recommendation": "Hold on tier-2. Rent is not the binding constraint; member density and retention are. Fix retention in three metro clubs first, then expand on a proven unit.",
+  "reasons": [
+    {"claim": "Rent is a smaller share of cost than assumed", "hypothesis": "If rent were the binding constraint, then rent would exceed 30% of club-level cost.", "test_method": "Rebuilt club P&L from disclosed cost lines across the metro estate.", "data_source": "Company filings; comparable listed operators' club-level disclosures.", "verdict": "rejected", "exhibit_url": "", "exhibit_caption": ""},
+    {"claim": "Retention, not acquisition, is the leak", "hypothesis": "If retention were healthy, then member lifetime would exceed the payback period on acquisition cost.", "test_method": "Compared average member tenure against blended CAC payback.", "data_source": "Internal cohort data; industry retention benchmarks.", "verdict": "supported", "exhibit_url": "", "exhibit_caption": ""},
+    {"claim": "Tier-2 density does not support the volume model", "hypothesis": "If tier-2 catchments could support the model, then addressable members within 3km would match metro catchments.", "test_method": "Catchment sizing across five candidate cities against the metro benchmark.", "data_source": "Census density data; income distribution by city tier.", "verdict": "supported", "exhibit_url": "", "exhibit_caption": ""}
+  ],
+  "risks": "The retention diagnosis rests on cohort data from a single region; if churn is regionally idiosyncratic, the conclusion weakens.",
+  "next_steps": "Run a 90-day retention intervention in three metro clubs. Re-underwrite the tier-2 case only once member lifetime clears CAC payback.",
+  "sources": [{"label": "Illustrative - public filings", "url": "https://example.com"}],
+  "disclaimer": "Based on publicly available information. Illustrative analysis, not investment advice."
+}
