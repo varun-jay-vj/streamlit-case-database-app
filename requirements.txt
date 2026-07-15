@@ -1,2 +1,2 @@
-streamlit>=1.40
-rapidfuzz>=3.9
+streamlit>=1.59.2
+rapidfuzz>=3.14.5
